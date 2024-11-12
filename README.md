@@ -55,16 +55,15 @@ Each file is a standalone example of a specific concept or feature in C. Simply 
 #Examples
 Here are a few examples of the concepts covered:
 
-Arithmetic Operations:
-
-c
+###Arithmetic Operations:
+``c
 Copy code
 // Arithmetic.c
 int a = 10, b = 5;
-printf("Sum: %d\n", a + b);
-Conditional Statements:
+printf("Sum: %d\n", a + b);``
 
-c
+###Conditional Statements:
+``c
 Copy code
 // IfElse.c
 int number = 10;
@@ -72,18 +71,18 @@ if (number > 0) {
     printf("Positive number\n");
 } else {
     printf("Negative number\n");
-}
-Loops:
+}``
 
-c
+###Loops:
+``c
 Copy code
 // For.c
 for (int i = 0; i < 5; i++) {
     printf("i = %d\n", i);
-}
-These are just a few examples. Explore each file to see more!
+}``
+These are just a few examples. Explore each file to see more
 
 #Contributing
 If you'd like to contribute to this repository, please fork the repository, make your changes and submit a pull request. Contributions such as additional examples, bug fixes and optimizations are welcome!
 
-Happy coding! If you find this repository helpful, please consider giving it a ⭐️.
+Happy coding! If you find this repository helpful please consider giving it a ⭐️.
