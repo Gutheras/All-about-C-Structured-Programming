@@ -34,11 +34,11 @@ If you're just getting started with C programming, this repository provides a gr
  - A C compiler (such as gcc) installed on your system.
  - A code editor or IDE that supports C (e.g., VS Code, Code::Blocks, or Dev-C++).
 -**Compiling and Running**
-    - i.Clone this repository to your local machine:
+    i.Clone this repository to your local machine:
       ``git clone https://github.com/Gutheras/All-about-C-Structured-Programming``
-    - ii.Navigate to the directory:
+    ii.Navigate to the directory:
       ``cd your-repository``
-    - iii.Compile and run any .c file using a C compiler. For example:
+    iii.Compile and run any .c file using a C compiler. For example:
         ``gcc Hello.c -o Hello``
         ``./Hello``
 
@@ -49,15 +49,13 @@ Each file is a standalone example of a specific concept or feature in C. Simply 
 Here are a few examples of the concepts covered:
 
 ### Arithmetic Operations:
-``c
-Copy code
+``
 // Arithmetic.c
 int a = 10, b = 5;
 printf("Sum: %d\n", a + b);``
 
 ### Conditional Statements:
-``c
-Copy code
+``
 // IfElse.c
 int number = 10;
 if (number > 0) {
@@ -67,8 +65,7 @@ if (number > 0) {
 }``
 
 ### Loops:
-``c
-Copy code
+``
 // For.c
 for (int i = 0; i < 5; i++) {
     printf("i = %d\n", i);
